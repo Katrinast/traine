@@ -63,17 +63,18 @@
 // інформацією про те, яка кнопка була натиснута скільки разів.
 //
 
-const refs = {
-  resultbutton: document.querySelector("#resultButton"),
-  statList: document.querySelector(".statList"),
-  resultSection: document.querySelector("#resultSection"),
-}
-refs.resultbutton.addEventListener("click",)
-refs.statList.addEventListener("click", onStatList);
-let sum = 0;
-let clickNumber = {};
-function onStatList(event) {
-  const number = parseInt(event.target.daset.number);
-  sum += number;
-  clickNumber[event.target.textContent] = () + 1;
-}
+// const refs = {
+//   resultbutton: document.querySelector("#resultButton"),
+//   statList: document.querySelector(".statList"),
+//   resultSection: document.querySelector("#resultSection"),
+// }
+// refs.resultbutton.addEventListener("click",)
+// refs.statList.addEventListener("click", onStatList);
+// let sum = 0;
+// let clickNumber = {};
+// function onStatList(event) {
+//   const number = parseInt(event.target.daset.number);
+//   sum += number;
+//   clickNumber[event.target.textContent] = () + 1;
+// }
+
